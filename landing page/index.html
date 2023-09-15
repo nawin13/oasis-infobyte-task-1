@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Landing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div id="logo">
+            <img src="./images/stunning-logo (1).png" alt="logo">
+        </div>
+        <nav id="nav">
+            <span class="navigation" href="#">Home </span>
+            <span class="navigation" href="#">About </span>
+            <span class="navigation" href="#">Blog </span>
+            <span class="navigation" href="#">Jobs </span>
+        </nav>
+        <div id="youracc">Your Account</div>
+        <i class='bx bx-menu'></i>
+    </header>
+    <main id="main"> 
+        <div id="leftcontainer">
+                <h1 class="main-heading">Stunning<br>Workplace <span  class="dot" >&#x25A0;</span></h1>
+                <p class="details">With Stunning, remote teams can organize projects, manage shifting priorities, and get work done.</p>
+            <div id="special-btn">
+                <div id="newaccount">New Account</div>
+                <div id="arrowup"><img src="./images/arrow-up.png" alt="hray" class="arrow-up" href="#"/></div>
+                <div id="arrowup"><img src="./images/arrow-down.png" alt="hray" class="arrow-down" href="#"/></div>
+            </div>
+            <div id="cards">
+                <div class="card" >
+                    <div class="card-img">
+                        <img src="./images/tick-gray.png" alt="gray" class="gray"/>
+                        <img src="./images/tick-blue.png " alt="blue" class="blue"/>
+                    </div>
+                    <div id="dmm">
+                        <p>Dmm design</p>
+                    </div>
+                    <div class="user">
+                        <img src="./images/user-pink.png" alt=""/>
+                    </div>
+                    <div class="card-date">
+                        20 June
+                    </div>
+                    <div class="line1"></div>
+                </div>
+                <div class="card" >
+                    <div class="card-img">
+                        <img src="./images/tick-gray.png" alt="" class="gray"/>
+                        <img src="./images/tick-blue.png " alt="" class="blue"/>
+                    </div>
+                    <div id="blur">
+                        <p>Blurr animation</p>
+                    </div>
+                    <div class="user">
+                        <img src="./images/user-orange.png" alt=""/>
+                    </div>
+                    <div class="card-date">
+                        22 June
+                    </div>
+                    <div class="line2"></div>
+                </div>
+                <div class="card" >
+                    <div class="card-img">
+                        <img src="./images/tick-gray.png" alt="" class="gray"/>
+                        <img src="./images/tick-blue.png" alt="" class="blue"/>
+                    </div>
+                    <div id="illustration">
+                        <p>Illustration</p>
+                    </div>
+                    <div class="user">
+                        <img src="./images/user-blue.png" alt=""/>
+                    </div>
+                    <div class="card-date">
+                        26 June
+                    </div>
+                    <div class="line3"></div>
+                </div>
+                <div class="card" >
+                    <div class="card-img">
+                        <img src="./images/tick-gray.png" alt="" class="gray"/>
+                        <img src="./images/tick-blue.png" alt="" class="blue"/>
+                    </div>
+                    <div id="refunds">
+                        <p>Refunds</p>
+                    </div>
+                    <div class="user">
+                        <img src="./images/user-red.png" alt=""/>
+                    </div>
+                    <div class="card-date">
+                        28 June
+                    </div>
+                    <div class="line4"></div>
+                </div>
+            </div>          
+        </div>
+        <div id="rightcontainer">
+            <img style="width:100%; height:100%" src="./images/landing-section-image.png" alt="" />
+        </div> 
+    </main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    var t1=gsap.timeline();
+t1
+.from("#rightcontainer img",{
+duration:2,
+opacity:1,
+y:80,
+x:-40,
+repeat:-1,
+})
+</script>
+</body>
+</html>

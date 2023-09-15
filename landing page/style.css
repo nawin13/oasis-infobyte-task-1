@@ -1,0 +1,348 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #A389CC; */
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #logo{
+    width: 200px;
+    height: 100px; 
+    display: inline-block;
+} 
+#logo img{
+    width:100%;
+    height: 100%; 
+    padding-left: 50px;
+    padding-top: 30px;
+    display: inline-block;
+}
+.bx.bx-menu{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    height: 80px;
+    width: 400px;
+    cursor: pointer;
+   }
+ .navigation{
+    padding-bottom:2px;
+    margin-bottom: 0px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    font-family: Raleway;
+    text-decoration:none;
+    color: grey;
+}
+.navigation:hover{
+    color: #FE5D20;
+    border-bottom: 3px solid #8071D0;
+}
+#youracc{
+    height: 50px;
+    width: 150px;
+    margin-right: 40px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: Pink;
+    color: #A389CC;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all ease-in-out 1s;
+}
+
+#youracc:hover {
+transform: rotate(2deg);
+background-color: #FE5D20;
+color: black;
+}
+
+#main{
+    width: 100%;
+    padding-bottom: 24px;
+    height: 640px;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 800px;
+}
+#leftcontainer {
+    width: 45%;
+    height:100%;
+}
+.dot {
+    font-size: 25px;
+    color: #5243C0;
+    position: relative;
+    right: 24px;
+}
+.main-heading {
+    margin-top: 30px;
+    margin-left: 125px;
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details {
+    margin-left:125px ;
+    font-size: 20px;
+    width: 450px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(112, 112, 112);
+    padding-top: 24px;
+}
+#special-btn {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+#newaccount {
+    width: 150px;
+    height: 50px;
+    margin-left: 125px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: #5243C0;
+    border-radius: 22px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 13px;
+}
+#newaccount:hover{
+    background-color: #A389CC;
+    color: black;
+    font-family: Raleway;
+    font-weight: 400;
+}
+#arrowup{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 20px;
+    color: rgb(193, 191, 191);
+    cursor: pointer;
+}
+#arrowdown{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 20px;
+    color: rgb(193, 191, 191);
+    cursor: pointer;
+}
+#arrowup:hover {
+    color: black;
+    box-shadow: 10px 10px 150px grey;
+    border: 1px solid rgb(196, 195, 195);
+}
+#arrowdown:hover {
+    color: black;
+    box-shadow: 10px 10px 150px grey;
+    border: 1px solid rgb(196, 195, 195);
+}
+#cards{
+    width: 450px; 
+    height: 250px;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+.card {
+    width: 420px;
+    height: 50px;
+    margin-top:8px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    border-radius: 20px;
+    background-color: #ededed4f;
+    padding: 0px;
+}
+.card-img{
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#dmm{
+    font-family: Raleway;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 97px;
+}
+#blur p{
+    font-family: Raleway;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 72px;
+}
+#illustration p{
+    font-family: Raleway;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 104px;
+}
+#refunds p{
+    font-family: Raleway;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 126px;
+}
+.user{
+    padding-right: 18px;
+}
+.card-date{
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: Raleway;
+    font-size: 13px;
+    color: gray;
+}
+.card:hover{
+    box-shadow: 10px 10px 50px rgb(172, 171, 171);
+    background-color: white;
+}
+.blue{
+    display: none;
+}
+.card:hover .blue{
+    display:inline;
+}
+.card:hover .gray{
+    display: none;
+}
+.line1{
+    width: 20px;
+    height: 10px;
+    margin-left: 24px;
+    border-radius: 10px;
+    background-color: #FED7DA;
+}
+.line2{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FD6534;
+    margin-left: 24px;
+}
+.line3{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #9ED095;
+    margin-left: 24px;
+}
+.line4{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FFE4A0;
+    margin-left: 24px;
+}
+#rightcontainer{
+    width: 50%;
+    height: 677px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (max-width:600px){
+    header{
+        background-color: #9ED095;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }  
+
+#logo img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+#nav{
+    display: none;
+}
+#youracc{
+    display: none;
+}
+.bx.bx-menu{
+    display: block;
+    z-index: 1;
+    padding: 20px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;   
+}
+#leftcontainer{
+    width: 100%;
+    height: 50%;
+}
+.main-heading{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0px;
+}
+.dot{
+    display: none;
+}
+.details{
+    max-width: 400px;
+    padding-left: 10px;
+}
+#rightcontainer{
+
+    height:100%;
+    width:100%;
+}
+.details{
+    margin-left: 10px;
+}
+#cards{
+    margin-left: 1px;
+    width: 200px;
+}
+#special-btn{
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+}
+}
